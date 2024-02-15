@@ -30,7 +30,8 @@ The new data split detail are included in `data/train.txt` and `data/test.txt` f
 
 Previously, I used Google Colab Pro for training and testing the models, which provides access to V100 and A100 GPUs. A recommended way to train the model is to extract and refactor the functions to python files available for running on local machines with GPUs.
 
-
+# License
+© This code is made available under the GPLv3 License and is available for non-commercial academic purposes.
 
 ## References
 1. Lan, P.N., An, N.S., Hang, D.V., Long, D.V., Trung, T.Q., Thuy, N.T., Sang, D.V.: [NeoUnet: Towards accurate colon polyp segmentation and neoplasm detection](https://link.springer.com/chapter/10.1007/978-3-030-90436-4_2). In: Proceedings of the 16th International Symposium on Visual Computing (2021)
