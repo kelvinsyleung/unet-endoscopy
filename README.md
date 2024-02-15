@@ -20,13 +20,13 @@ Both models are trained and tested on the same dataset. A classification report 
 Sample plots of deep features are visualised to compare the influence of attention gates on the feature maps.
 
 Some predictions:
-![Good Predictions](./good_predictions.png)
-![Good Predictions](./good_predictions_2.png)
-![Bad Predictions](./bad_predictions.png)
-![OK Predictions](./ok_predictions.png)
+![Good Predictions](./output/good_predictions.png)
+![Good Predictions](./output/good_predictions_2.png)
+![Bad Predictions](./output/bad_predictions.png)
+![OK Predictions](./output/ok_predictions.png)
 
 ### Note
-The new data split detail are included in `train.txt` and `test.txt` files, where IDs of the images in each set are specified.
+The new data split detail are included in `data/train.txt` and `data/test.txt` files, where IDs of the images in each set are specified.
 
 Previously, I used Google Colab Pro for training and testing the models, which provides access to V100 and A100 GPUs. A recommended way to train the model is to extract and refactor the functions to python files available for running on local machines with GPUs.
 
